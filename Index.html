@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <head>
+        <style>
+            body {
+        background-color: #70a8da;
+        }
+           hr {
+        background-color:rgb(63, 47, 215);
+    }
+      .profile {
+        display: flex; /* เปิดใช้งาน Flexbox */
+        align-items: center; /* จัดแนวตั้งตรงกลาง */
+      }
+      .profile img {
+        width: 20%;
+        height: auto;
+        border-radius: 50%;
+        margin-right: 20px; /* ช่องว่างขวา */
+      }
+      .profile-info {
+        text-align: left; /* จัดข้อความชิดconner */
+      }
+        </style>
+    </head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>จ๊อปูพิเศษ</title>
     <link rel="stylesheet" href="styles.css"
 </head>
-<body align="center">
-    <p><em><h1>Kiattipon Jadospon</h1></em></p>
-    <img src="AXE.jpg" alt="" style="width:25%; height: auto;"><br>
-    <a href = "contact.html"> My Contact </a>
+<body style="background-color:rgb(222, 58, 13);">
+  <div class="profile">
+    <img src="AXE.jpg" alt="" style="width:25%; height: auto;">
+   <div class="profile-info">
+    <p><h1>Kiattipon Jadospon</h1></p>
+    <em><h1>My nickname is "Bird"</h1></em>
+   </div>
+  </div>
+    <h3>CPALL Store Operation Management</h3>
+    <h3>Skills</h3>
+   <ul>
+       <li>Swimming</li>
+       <li>Music</li>
+       <li>Microsoft office suit</li>
+       <li>Photoshop</li>
+   </ul>
 
+    <a href = "contact.html"> My Contact </a>
+    <hr style="border-style: dotted;">
     <h1>Work experience</h1>
-    <table align="center">
+    <table border="3">
         <thead>
           <tr>
             <th>Year</th>
@@ -32,6 +69,5 @@
            <td>CPALL Store Operation Dev </td>
       </tr>
     </table>
-  
 </body>
 </html>
